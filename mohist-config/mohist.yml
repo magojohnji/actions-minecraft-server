@@ -58,6 +58,7 @@ settings:
   messages:
     ping-command-output: §2%s's ping is %sms
 events:
+  explosion: false
   fire_tick: false
 forge:
   bukkitpermissionshandler: true
@@ -69,8 +70,10 @@ velocity:
 recipe:
   warn: false
 tpa:
+  permissions: true
   enable: false
 back:
+  permissions: true
   enable: false
 permissions:
   debug:

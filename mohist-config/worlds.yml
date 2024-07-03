@@ -20,3 +20,47 @@ worlds:
     worldborder: 5.9999968E7
     ismods: true
     modName: aether
+  mars_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  moon:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  venus_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  mars:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  moon_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  mercury:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  mercury_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  glacio_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  venus:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  glacio:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
+  earth_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: ad_astra
