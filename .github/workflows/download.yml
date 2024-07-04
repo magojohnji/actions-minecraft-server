@@ -1,0 +1,23 @@
+name: Server Run
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install remote.it
+        run: R3_REGISTRATION_CODE="${{ secrets.REMOTEIT_CODE }}" sh -c "$(curl -L https://downloads.remote.it/remoteit/install_agent.sh)"
+
+      - name: Pause
+        run: |
+          while true; do
+            echo "Working..."
+            sleep 60
+          done
