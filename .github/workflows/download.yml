@@ -11,13 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
+      - name: Create a new user
+        run: |
+          sudo useradd -m -s /bin/bash newuser
+          echo 'newuser:password' | sudo chpasswd
+          sudo usermod -aG sudo newuser
+
+      - name: Verify the new user
+        run: |
+          id newuser
+          sudo -u newuser -i whoami
+
       - name: Install remote.it
         run: R3_REGISTRATION_CODE="${{ secrets.REMOTEIT_CODE }}" sh -c "$(curl -L https://downloads.remote.it/remoteit/install_agent.sh)"
 
-      - name: Pause
-        run: |
-          while true; do
-            echo "Working..."
-            sleep 60
-          done
+      - name: Keep runner alive
+        run: sleep 3600  # Keeps the runner alive for 1 hour
