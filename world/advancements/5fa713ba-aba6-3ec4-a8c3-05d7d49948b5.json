@@ -1,0 +1,63 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-08-28 03:52:26 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-08-28 03:45:27 +0000"
+    },
+    "done": false
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2024-08-28 03:45:26 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
